@@ -13,7 +13,7 @@ export default function TablePerson() {
 
     useEffect(() => {
         dispatch(getPerson())
-    })
+    },[])
 
 
     const { useState } = React;

@@ -1,0 +1,24 @@
+.mg-1{
+  margin: 1rem;
+}
+
+.salary{
+  display: flex;
+  flex-wrap: initial;
+  flex-direction: initial;
+}
+
+.dis-flex{
+  display: flex;
+}
+
+p {
+  color: #bf1650;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+
